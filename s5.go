@@ -12,7 +12,7 @@ import (
 
 type config struct {
 	Host  string `default:"0.0.0.0"`
-	Port  int    `default:"1080"`
+	Port  int    `default:"11801"`
 	Users socks5.StaticCredentials
 }
 
